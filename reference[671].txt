@@ -1,0 +1,49 @@
+@article{wiering2012reinforcement,
+  title={Reinforcement learning},
+  author={Wiering, Marco and Van Otterlo, Martijn},
+  journal={Adaptation, learning, and optimization},
+  volume={12},
+  pages={3},
+  year={2012},
+  publisher={Springer}
+}
+
+@article{sutton2011reinforcement,
+  title={Reinforcement learning: An introduction},
+  author={Sutton, Richard S and Barto, Andrew G},
+  year={2011},
+  publisher={Cambridge, MA: MIT Press}
+}
+@article{mnih2013playing,
+  title={Playing atari with deep reinforcement learning},
+  author={Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Graves, Alex and Antonoglou, Ioannis and Wierstra, Daan and Riedmiller, Martin},
+  journal={arXiv preprint arXiv:1312.5602},
+  year={2013}
+}
+
+@article{lillicrap2015continuous,
+  title={Continuous control with deep reinforcement learning},
+  author={Lillicrap, Timothy P and Hunt, Jonathan J and Pritzel, Alexander and Heess, Nicolas and Erez, Tom and Tassa, Yuval and Silver, David and Wierstra, Daan},
+  journal={arXiv preprint arXiv:1509.02971},
+  year={2015}
+}
+@inproceedings{thomas2016data,
+  title={Data-efficient off-policy policy evaluation for reinforcement learning},
+  author={Thomas, Philip and Brunskill, Emma},
+  booktitle={International Conference on Machine Learning},
+  pages={2139--2148},
+  year={2016}
+}
+
+@article{williams2017hybrid,
+  title={Hybrid code networks: practical and efficient end-to-end dialog control with supervised and reinforcement learning},
+  author={Williams, Jason D and Asadi, Kavosh and Zweig, Geoffrey},
+  journal={arXiv preprint arXiv:1702.03274},
+  year={2017}
+}
+@article{jaderberg2016reinforcement,
+  title={Reinforcement learning with unsupervised auxiliary tasks},
+  author={Jaderberg, Max and Mnih, Volodymyr and Czarnecki, Wojciech Marian and Schaul, Tom and Leibo, Joel Z and Silver, David and Kavukcuoglu, Koray},
+  journal={arXiv preprint arXiv:1611.05397},
+  year={2016}
+}
