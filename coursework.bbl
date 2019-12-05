@@ -1,7 +1,27 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{al~Rifae}{2019}{alrifae2019lecturennotes}
+al~Rifae, D.~M.  \harvardyearleft 2019\harvardyearright , `Lecture notes'.
+
+\harvarditem{Dayan \harvardand\ Balleine}{2002}{dayan2002reward}
+Dayan, P. \harvardand\ Balleine, B.~W.  \harvardyearleft 2002\harvardyearright
+  , `Reward, motivation, and reinforcement learning', {\em Neuron} {\bf
+  36}(2),~285--298.
+
+\harvarditem[Jaderberg et~al.]{Jaderberg, Mnih, Czarnecki, Schaul, Leibo,
+  Silver \harvardand\ Kavukcuoglu}{2016}{jaderberg2016reinforcement}
+Jaderberg, M., Mnih, V., Czarnecki, W.~M., Schaul, T., Leibo, J.~Z., Silver, D.
+  \harvardand\ Kavukcuoglu, K.  \harvardyearleft 2016\harvardyearright ,
+  `Reinforcement learning with unsupervised auxiliary tasks', {\em arXiv
+  preprint arXiv:1611.05397} .
+
 \harvarditem{Sutton \harvardand\ Barto}{2011}{sutton2011reinforcement}
 Sutton, R.~S. \harvardand\ Barto, A.~G.  \harvardyearleft 2011\harvardyearright
   , `Reinforcement learning: An introduction'.
+
+\harvarditem{Wiering \harvardand\ Van~Otterlo}{2012}{wiering2012reinforcement}
+Wiering, M. \harvardand\ Van~Otterlo, M.  \harvardyearleft
+  2012\harvardyearright , `Reinforcement learning', {\em Adaptation, learning,
+  and optimization} {\bf 12},~3.
 
 \end{thebibliography}

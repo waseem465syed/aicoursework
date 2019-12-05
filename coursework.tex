@@ -1,11 +1,11 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{natbib}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage{harvard}
 \usepackage{mathptmx}
 \usepackage{setspace}
 \author{Waseem Syed}
@@ -25,19 +25,37 @@
 	\section{Reinforcement Learning}
 	
 	{\setstretch{1.5}
-	Select a single topic from Search Techniques, Deep Learning and Reinforcement Learning, and write a brief literature review report on it.  You may make use of materials which you find in the lecture notes, textbooks and the Internet, but you should adapt them to your report and give full citations and references to sources each time copied material is used (8 marks).  The main aim of the report is to provide your understanding, critical analysis and evaluation of the selected topic in terms of observations and/or application examples (12 marks). The report should be 3 pages using Times New Roman Font, 12 point, with 1.5 spacing, including references and Web/Book citations. Longer submissions will not be penalized but will not necessarily draw extra credit. {20 marks}\\
-	\\
-	\\
-	
 
-\cite{sutton2011reinforcement} says that the term 'reinforcement learning' is used to denote a more general approach, so that an action applied to the environment in a particular state produces an immediate reward and a change of state. The long-term return from the action is sum of the immediate reward and the return achievable from the new state. The return obtainable from the each state, or 'value' of the state, is therefore evaluated by a form of bootstrapping, since the value of any one state depends on the values of others that can be reached from it.
-	
-}
+\cite{sutton2011reinforcement} says that the term 'reinforcement learning' is used to denote a more general approach, so that an action applied to the environment in a particular state produces an immediate reward and a change of state. The long-term return from the action is sum of the immediate reward and the return achievable from the new state. The return obtainable from the each state, or 'value' of the state, is therefore evaluated by a form of bootstrapping, since the value of any one state depends on the values of others that can be reached from it. This is an approach of a system, which learns from experience. Most work on neural nets is directed at "learning with a teacher". Reinforcement learning is focused on interaction between the learning agent and unknown environment.\\
+In Lecture Notes \cite{alrifae2019lecturennotes} explained that interaction with environment is a major source of knowledge. Reinforcement Learning is much more focused on goal-directed learning form interaction than are other approaches to machine learning and it uses aspects of computer science, psychology, neuroscience, engineering, economics and mathematics. There are few basic elements in Reinforcement Learning which are, a policy, a reward signal, a value function and optionally a model. A policy is a kind of mapping from perceived states of environment to actions to be taken when in those states. A reward is a scalar feedback signal which measures how well an agent is functioning at a given time and the agent has task to get maximum rewards. Reinforcement learning is based on reward hypothesis. The value function illustrates what is good in the long run. It is the total amount of reward a state is expected to accumulate, starting from that state, over the future. A state can have very low immediate reward but a high value. There is a difference between values and rewards. Values are predictions of rewards and there are no values without rewards and values are estimated and re-estimated from a sequence of agent observations over its lifetime, on the other hand rewards are directly determined by the environment.\\
+\cite{jaderberg2016reinforcement} states that theory of reinforcement learning is rooted in psychology and neuroscientific perspectives on animal behaviour, of how agents can improve their control of an environment. Humans and animals solve problems through a combination of reinforcement learning and hierarchical sensory processing systems. On the other hand reinforcement learning agents have also achieved some successes in a variety of domains.\\
+\cite{wiering2012reinforcement} tells that the goal in reinforcement learning is to develop efficient learning algorithms and it is of great interest because of the large number of practical applications, from problems in AI to operations research or control engineering.\\
+\cite{dayan2002reward} discussed the engineering theory of optimal control and the computer science theory of reinforcement learning, both study how systems of any sort can choose their actions to maximize rewards or minimize punishments. They evaluated the actor-critic model of dopamine system from the perspective of the substantial psychological and neurobiological data on motivation, which is key to the modern view of reward learning. Reinforcement learning comprises one family of methods for performing dynamic programming, using the values of states as a form of cache for the reward consequences of the actions subsequent to those states.\\
+\subsection{Conclusion and Evaluation}
+The evolution of different algorithms with respect to the environment complexity would be one key feature to
+examine and a better indicator of progress in reinforcement learning. Temporal difference (TD) learning is a concept central to reinforcement learning, in which learning happens through the iterative correction of your estimated returns towards a more accurate target return. There are 
+three most ininfluential algorithms, Temporal Difference
+(TD) Learning , adaptive Actor-Critics and Q-learning in RL.
+Naturally, the application to the evaluation of Reinforcement Learning systems is much more
+straightforward than other AI systems, since the test framework and reinforcement learning are based on the notion of interacting with an environment through
+observations, actions and rewards But the most important and difficult part is trade-off between exploration and exploitation which is a challenge in reinforcement learning. It could be said that there are two fundamental difficulties one encounters while solving reinforcement learning problems: the balance of exploration vs. exploitation and long term credit assignment. The question that agents are unable to answer, do I keep following this policy that’s giving me nice rewards, or do I take some relatively sub-optimal actions now in case there’s a possibly bigger pay-off later? This problem is so hard because there can be no right answer in general - there is always a trade-off.
+
+There is, of course, much work ahead. One clear area for future work is the
+evaluation of other reinforcement learning algorithms and the analysis of the
+parameters in all algorithms. Finally,tests for humans and (non-human) animals will also be a
+very important source of information to see whether this top-down approach for
+measuring performance and intelligence can become mainstream in AI.
+Despite some challenging problems in Reinforcement Learning, I still believe it is the best framework we have right now to work on general intelligence. Otherwise. Watching DQN play atari from visual input, or AlphaGo defeating the world champion in Go, x Flip pancake, x Autonomous drifting, x fly autonomous stunt helicopter, are truly impressive  moments in which we witnessed an advancement in Reinforcement learning.
 	
 		\bibliographystyle{agsm}
 	\bibliography{bibliography}
 	
-	
+
+
+
+\newpage
+
+
 	\section{Question}
 	Write a research essay/report on temporal logics and/or their application in the domain of Artificial Intelligence. It can be about any relevant theoretical and / or practical topics, such as:
 	
@@ -58,7 +76,7 @@
 \end{itemize}
 	etc., but only focusing on a SINGLE topic. You may make use of materials which you find in the lecture notes, textbooks and the Internet, but you should adapt them to your essay and give full citations and references to sources each time copied material is used. The contents of the essay/report must be related to the key words “Time” and/or “temporal”, in terms of a well-presented literature review/survey (8 marks), together with your own understanding, observations, critical analysis and evaluation of temporal logics and/or their applications in the domain of Artificial Intelligence (12 marks). The essay/report should be around 5 pages using Times New Roman Font, 12 point, with 1.5 spacing, including references and Web/Book citations. Longer submissions will not be penalized but will not necessarily draw extra credit.{20 marks}
 	
-	
+	\newpage
 	
 	\section{Question} 
 	Assume that the universe of discourse is the set of people studying or working at the University of Greenwich. Rewrite the following statements in the form of predicate logic.
@@ -161,7 +179,7 @@
 		\end{itemize}
 	
 
-
+\newpage
 
 		
 	\section{Question}	
@@ -243,7 +261,7 @@ the second scenario [when p=f and q=f] cannot be accepted because our above stat
 	
 
 
-
+\newpage
 
 		
 	\section{Question}
@@ -299,12 +317,12 @@ the second scenario [when p=f and q=f] cannot be accepted because our above stat
 \includegraphics[width=80mm]{q6.png}
 \end{figure}
 
-\[P(D|S1, S2)=\frac{P(D, S1, S2)}{P(S1, S2)}\]
+\[P(D|S1, S2)=\frac{P(D, S1, S2)} {P(S1, S2)}\]
 
 Solving the Denominator 
 \[P(S1, S2) =P(D, S1, S2) + P(\sim D, S1, S2)\]\\
 
-\\
+
 \[ P(D,S1,S2)=P(D) \times P(S1|D) \times P(S2|D)\]
 \[P(\sim D, S1, S2)=P(\sim D) \times P(S1|\sim D) \times P(S2|\sim D)\]
 
